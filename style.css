@@ -1,13 +1,12 @@
-@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 700;
-    font-family: 'Big Shoulders Display', cursive;
-    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: "Big Shoulders Display";
+    /* font-family: "Lexend Deca"; */
 }
 
 
@@ -21,8 +20,6 @@ body {
 }
 
 main {
-    /* width: 50%;
-    margin: auto; */
     display: flex;
     align-items: center;
     height: 100vh;
@@ -69,13 +66,15 @@ main {
 h1 {
     color: hsla(0, 0%, 95%);
     text-transform: uppercase;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: "Lexend Deca";
+    font-weight: 400;
     margin: 20px 0;
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
 }
 
 .btn {
@@ -87,8 +86,8 @@ p {
     background-color: hsla(0, 0%, 95%);
     font-size: 15px;
     cursor: pointer;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 700;
+    font-family: "Lexend Deca";
+    font-weight: 400;
 
 }
 
