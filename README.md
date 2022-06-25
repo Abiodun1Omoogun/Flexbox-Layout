@@ -1,5 +1,5 @@
 # Flexbox-Layout
-# 3 column motor card design using flexbox
+# Recreating a 3 column motor card design using css flexbox
 
 # Grid-layout 
 
